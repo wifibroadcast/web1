@@ -3,15 +3,78 @@
 <head>
   <title>WEB1 - html</title>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+<!--
+  <style>
+    body {
+      margin: 0;
+    }
+    a {
+      color: black;
+      text-decoration: none;
+    }
+    #forGrid {
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+
+    h1 {
+      font-size: 45px;
+      text-align: center;
+      border-bottom: grey 1px solid;
+      margin: 0;
+      padding: 20px;
+    }
+    ol {
+      border-right: 1px solid grey;
+      width: 100px;
+      margin: 0;
+      padding: 20px;
+
+    }
+    #forGrid #article {
+      padding-left:25px;
+    }
+    #forGrid ol {
+      padding-left: 33px;
+    }
+    @media(max-width:400px){
+      #forGrid{
+        display: block;
+      }
+      ol {
+        border-right: none;
+      }
+      h1 {
+        border-bottom: none;
+      }
+
+    }
+
+
+  </style>
+-->
 </head>
 <body>
   <h1><a href="index.html">WEB</a></h1>
+<!--
   <ol>
-    <li><a href="1.html">HTML</a></li>
-    <li><a href="2.html">CSS</a></li>
-    <li><a href="3.html">JavaScript</a></li>
+    <li><a href="1.html" class="saw" id="active">HTML</a></li>
+    <li><a href="2.html" class="saw">CSS</a></li>
+    <li><a href="3.html" class="saw">JavaScript</a></li>
   </ol>
+-->
+
+  <div id="forGrid">
+    <ol>
+      <li><a href="1.html">HTML</a></li>
+      <li><a href="2.html">CSS</a></li>
+      <li><a href="3.html">JavaScript</a></li>
+    </ol>
+    <div id="article">
+
   <h2>HTML</h2>
+
   <p>
     <a href="https://html.spec.whatwg.org/" target="_blank" title="HTML5 specification">Hypertext Markup Language (HTML)</a> is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript and VBScript.
     <img src="images/markus-spiske-hvSr_CVecVI-unsplash.jpg" align="left" width="50%" vspace="20px" hspace="10px">
@@ -27,5 +90,9 @@
   </p>
   <p style="margin-top:45px;">
     HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects, such as interactive forms, amy be embedded into the rendered page. It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets.</p>
+
+  </div>
+</div>
+
 </body>
 </html>
